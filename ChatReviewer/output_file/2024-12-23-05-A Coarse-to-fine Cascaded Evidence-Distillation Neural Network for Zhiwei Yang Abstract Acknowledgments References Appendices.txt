@@ -1,0 +1,16 @@
+## Paper:1
+
+
+
+
+
+assistant
+# Overall Review
+The paper "Coarse-to-fine Cascaded Evidence-Distillation Neural Network for Explainable Fake News Detection" by Zhiwei Yang and co-authors presents a novel approach to explainable fake news detection (EFND) by leveraging raw reports, which are unverified media articles, blogs, and user comments, to generate veracity explanations. The key contributions of the paper are:
+1. proposing a Coarse-to-fine Cascaded Evidence-Distillation (CofCED) neural network for EFND, which exploits a hierarchical encoder for text representation and two cascaded selectors to extract the most explainable sentences for the verdicts of the selected top-K reports in a coarse-to-fine manner;
+2. constructing two EFND datasets, LIAR-RAW and LIAR-PROD, consisting of raw reports for each claim, which are publicly available;
+3. demonstrating that the proposed CofCED model significantly outperforms state-of-the-art detection baselines and generates high-quality explanations from diverse evaluation perspectives.
+
+# Paper Strength
+Strength (1) The proposed CofCED neural network is an innovative approach to EFND, which utilizes raw reports to generate veracity explanations. This approach is valuable because it alleviates the dependency on fact-checked reports, which often suffer from limited news coverage and debunking delays. By leveraging unverified media articles, blogs, and user comments, the CofCED network can provide timely and generalizable explanations for fake news detection.
+
